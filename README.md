@@ -1,24 +1,12 @@
-# README
+# Example implementation of Rails Action Text
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Example implementaion of action text in rails.
 
-Things you may want to cover:
+# Getting started
 
-* Ruby version
+```console
+bundle install
+rails s
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Note: We may need imagemagic installed seperately in our system for this app to be functional.
