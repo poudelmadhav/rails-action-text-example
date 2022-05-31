@@ -56,3 +56,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "image_processing", "~> 1.12"
+
+gem "noticed", "~> 1.5"
+
+gem "annotate", "~> 3.2", :group => :development

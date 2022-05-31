@@ -21,6 +21,11 @@
     <%= form.rich_text_area :body %>
   </div>
 
+  <%= form.fields_for :comments do |comment| %>
+    <%= comment.label :content %>
+    <%= comment.text_area :content %>
+  <% end %>
+
   <div class="actions">
     <%= form.submit %>
   </div>

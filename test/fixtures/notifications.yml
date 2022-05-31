@@ -1,0 +1,27 @@
+# == Schema Information
+#
+# Table name: notifications
+#
+#  id             :integer          not null, primary key
+#  recipient_type :string           not null
+#  recipient_id   :integer          not null
+#  type           :string           not null
+#  params         :json
+#  read_at        :datetime
+#  created_at     :datetime         not null
+#  updated_at     :datetime         not null
+#
+
+one:
+  recipient: one
+  recipient_type: Recipient
+  type: 
+  params: 
+  read_at: 2022-04-04 19:30:58
+
+two:
+  recipient: two
+  recipient_type: Recipient
+  type: 
+  params: 
+  read_at: 2022-04-04 19:30:58

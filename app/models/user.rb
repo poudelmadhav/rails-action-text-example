@@ -1,16 +1,12 @@
 # == Schema Information
 #
-# Table name: posts
+# Table name: users
 #
 #  id         :integer          not null, primary key
-#  title      :string
+#  name       :string
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
-require "test_helper"
-
-class PostTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+class User < ApplicationRecord
+  has_many :notifications, as: :recipient
 end
